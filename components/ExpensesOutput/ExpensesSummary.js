@@ -1,7 +1,7 @@
 import {View, Text, StyleSheet} from "react-native";
 import {GlobalStyles} from "../../constants/styles";
 
-function expensesSummary({expenses, periodName}) {
+function ExpensesSummary({expenses, periodName}) {
     const expensesSum = expenses.reduce((sum, expense) => {
         return sum + expense.amount;
     }, 0);
@@ -14,7 +14,7 @@ function expensesSummary({expenses, periodName}) {
     );
 }
 
-export default expensesSummary;
+export default ExpensesSummary;
 
 const styles = StyleSheet.create({
     container: {

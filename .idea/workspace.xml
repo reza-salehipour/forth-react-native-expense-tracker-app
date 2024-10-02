@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9751a81-0f77-4731-bb50-63634dcabeae" name="Changes" comment="set up the basic styling of navigation">
-      <change afterPath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesOutput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesSummary.js" afterDir="false" />
+    <list default="true" id="d9751a81-0f77-4731-bb50-63634dcabeae" name="Changes" comment="handling dates and improving styles">
+      <change afterPath="$PROJECT_DIR$/components/UI/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UI/IconButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/AllExpenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AllExpenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/RecentExpenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/RecentExpenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExpensesOutput/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ExpensesOutput/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesOutput.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesOutput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ExpensesOutput/ExpensesSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ManageExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ManageExpense.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,9 @@
     "accountId": "7e9485eb-2e15-4349-be61-01bc6d377eba"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -73,7 +78,7 @@
       <workItem from="1727556492247" duration="219000" />
       <workItem from="1727557065502" duration="23000" />
       <workItem from="1727557119621" duration="5000" />
-      <workItem from="1727557126342" duration="2831000" />
+      <workItem from="1727557126342" duration="13199000" />
     </task>
     <task id="LOCAL-00001" summary="setup a basic navigation">
       <option name="closed" value="true" />
@@ -91,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727558990867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="showing some dummy data in components">
+      <option name="closed" value="true" />
+      <created>1727560029575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727560029575</updated>
+    </task>
+    <task id="LOCAL-00004" summary="handling dates and improving styles">
+      <option name="closed" value="true" />
+      <created>1727729277301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727729277301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +121,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup a basic navigation" />
     <MESSAGE value="set up the basic styling of navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up the basic styling of navigation" />
+    <MESSAGE value="showing some dummy data in components" />
+    <MESSAGE value="handling dates and improving styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling dates and improving styles" />
   </component>
 </project>
